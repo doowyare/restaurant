@@ -1,0 +1,371 @@
+/* body{
+    margin: auto  ;
+
+   
+}
+
+
+
+
+.zane{
+/* padding: 30px 50px;
+margin: 40px 60px; *//*
+cursor: pointer;/*
+/* display: inline-block; *//*
+color: #fff;
+font-size: 2em;
+border: 1px solid #bbb;
+transition: all .03s linear
+;
+}*/
+/*
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.6em;
+    margin: 0;
+
+}
+@media only screen and (max-width: 600px ){
+    .main-nav{
+        font-size: 0.3em;
+        padding: 0;
+    }
+
+}
+.push{
+    margin-left: auto;
+   background-color: turquoise;
+}
+li{
+    padding: 17px;
+   
+
+}
+a{
+    color:rgb(130, 6, 155);
+    text-decoration: none;
+}
+/* .grow{
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+} *//*
+.grow2{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,255,32,0.3253676470588235) 35%, rgba(0,212,255,1) 100%);
+}
+
+.grow3{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,250,255,0) 35%, rgba(0,212,255,1) 100%);
+}
+.grow4{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,190,255,0.48503151260504207) 35%, rgba(0,212,255,1) 100%);
+
+} */
+/* 
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    /* background-color: white; *//*
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  /* header *//*
+  
+  .zane {
+    background-color: rgb(1, 215, 253);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .zane ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    /* background-color: #fff; *//*
+  }
+  /*
+  .zane li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .zane li a:hover,
+  .zane .menuu-btn:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .zane .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu *//*
+  
+  .zane .akra {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  */
+  /* menu icon *//*
+  
+  .zane .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .zane .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .zane .menu-icon .navicon:before,
+  .zane .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .zane.menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .zane .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn *//*
+  
+  .zane .menuu-btn {
+    display: none;
+  }
+  
+  .zane .menuu-btn:checked ~ .akra {
+    max-height: 240px;
+  }
+  
+  .zane .menuu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .zane .menuu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .zane .menuu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .zane .menuu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .zane .menuu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px *//*
+  
+  @media (min-width: 48em) {
+    .zane li {
+      float: left;
+    }
+    .zane li a {
+      padding: 20px 30px;
+    }
+    .zane .akra {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .zane .menu-icon {
+      display: none;
+    }
+  }*//*
+ } /*
+  .dan{
+    border: 1px solid #bbb;
+    transition: all .03s linear;
+    font-size: 2em;
+    color: green;
+    
+
+  } *//*
+
+  .container .dan{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  } */
+
+
+  
+body {
+	width: 100%; 
+	font-family: sans-serif;
+   margin: auto ; 
+   /* background-color: crimson; */
+
+
+	/* background-color: #2a4055; */
+	/* color: white; */
+  }
+  /* Add a black background color to the top navigation */
+  .topnav {
+	  background-color: #cbf799;
+	  overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	  float: left;
+    display: block;
+    color: black;
+	  /* color: #f2f2f2; */
+	  text-align: center;
+	  padding: 15px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	  background-color: rgb(107, 128, 243);
+	  color: black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+	  display: none;
+  }
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+.container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ /* height: 100vh;  */
+
+ background-color: rgb(45, 172, 172);
+/* height: auto; */
+/* clip-path: polygon(0 0, 1600px 0, 1600px 55%, 0 100%); */
+
+ }
+ .do1 > img{
+   height: 80vh;
+  
+ 
+
+ }
+
+
+.zane > img{
+  width: 110%;
+  height: 100%;
+}
+.zane{
+  background-color: cyan;
+  border: 1px solid rgb(22, 188, 230);
+  padding: 70px;
+  margin: 10px;
+  justify-items: center;
+  
+  
+
+
+}
+.dan1{
+  padding: 100px;
+  margin: 1px;
+}
+
+/*grid*/
+.grid-wraper{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
+  
+}
+.dan3{
+  float: center ;
+}
+.dan11{
+
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  background: #00746e80;
+ 
+
+   /* height: 50vh;   */
+ 
+
+  }
+  
+
+
+  .dan3 > img{
+    width: 5%;
+    margin: 5px;
+  }
+ .dan1{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,190,255,0.5158438375350141) 0%, rgba(0,212,255,1) 100%);
+
+}
+.do2{
+  background: rgb(255, 255, 255);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(139,0,180,0.09287464985994398) 0%, rgba(85,14,209,0.4822303921568627) 100%, rgba(0,212,255,1) 100%);
+
+}
+/* .do3{
+
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,244,233,1) 18%, rgba(30,255,249,1) 30%, rgba(173,25,217,0) 36%, rgba(60,227,216,1) 43%, rgba(0,212,255,1) 56%, rgba(247,53,10,0.7511379551820728) 71%);
+}  */
